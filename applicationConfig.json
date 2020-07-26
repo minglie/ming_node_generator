@@ -1,0 +1,23 @@
+{
+  "savaPath":"D:/S/",
+  "templatePath":"D:/G/ming_node_generator/templates/default/",
+  "myDbconfig":{
+    "host"     : "127.0.0.1",
+    "user"     : "root",
+    "password" : "123456",
+    "port"     : "3306",
+    "database" : "ming-lie"
+  },
+  "tableNames":[
+    "ming_mysql_mq_config",
+    "ming_mysql_mq_message"
+  ],
+  "entityClassNames":[
+    "MqConfig",
+    "MqMessage"
+  ],
+  "entityDescs":[
+    "消息配置",
+    "消息"
+  ]
+}
